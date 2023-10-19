@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+body{
+  background-color: #242a38;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table{
+  border-radius: 10px;
+  background: linear-gradient(60deg,lightsalmon,white);
+  margin: 20px auto;
+  padding: 20px;
+  color: black;
+}
+td h2{
+  display: flex;
+  justify-content: end;
+  margin: 0 10px;
+}
+textarea{
+  border-radius: 5px;
+  padding: 5px ;
+  margin: 5px 0;
+}
+select , input{
+  cursor: pointer;
+  padding:10px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.oneTask{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box{
+  color: black;
+  width: 400px;
+  padding: 20px ;
+  border-radius: 10px;
+  margin: 30px;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading button {
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.task{
+  font-weight: bold;
+  text-align: justify;
+  text-indent: 60px;
+}
+
+.colorbox{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.colorbox .color{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.colorbox span{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
